@@ -1,19 +1,10 @@
-import {
+export {
     IAccountCreated,
     IUserEmailUpdated,
     IUserPhoneUpdated
     } from './IAccountUpdates';
 
-import {
+export {
     IUserAppCode,
     IResetData
 } from './IAppUser';
-
-export {
-    IAccountCreated,
-    IUserEmailUpdated,
-    IUserPhoneUpdated,
-    IUserAppCode,
-    IResetData
-
-};
