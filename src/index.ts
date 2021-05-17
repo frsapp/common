@@ -6,7 +6,7 @@ export {
 export {
     IUserAppCode,
     IResetData,
-    IAccountCreated,
+    IUserCreated,
     IUserEmailUpdated,
     IUserPhoneUpdated
-} from './interfaces'
+} from './interfaces/usersAdapter'
