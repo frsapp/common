@@ -10,3 +10,8 @@ export {
     IUserEmailUpdated,
     IUserPhoneUpdated
 } from './interfaces/usersAdapter'
+
+
+export {
+    templates
+} from './templates'
