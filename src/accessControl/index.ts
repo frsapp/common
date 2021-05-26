@@ -1,8 +1,1 @@
-import {
-    Role
-} from './Role';
-
-
-export {
-    Role
-};
+export { Role } from './Role';
