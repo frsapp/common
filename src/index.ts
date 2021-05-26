@@ -1,7 +1,7 @@
 export {
     StreamEvents,
     Stream
-} from './data'
+} from './stream';
 
 export {
     IUserAppCode,
@@ -9,9 +9,4 @@ export {
     IUserCreated,
     IUserEmailUpdated,
     IUserPhoneUpdated
-} from './interfaces/usersAdapter'
-
-
-export {
-    templates
-} from './templates'
+} from './interfaces/usersAdapter';
