@@ -5,6 +5,7 @@
     "dist",
     "test"
   ],
+  "include": ["src"],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

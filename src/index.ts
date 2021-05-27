@@ -1,12 +1,24 @@
+export {Role} from './access-control';
+
 export {
-    StreamEvents,
-    Stream
+    Stream, 
+    StreamEvents
 } from './stream';
 
 export {
-    IUserAppCode,
-    IResetData,
+    transformFilters,
+    zip,
+    generateId,
+    loggerFactory,
+    hashString,
+    cleanupUndefinedKeys,
+    CorrelationIDHelper
+} from './utils';
+
+export {
     IUserCreated,
     IUserEmailUpdated,
-    IUserPhoneUpdated
-} from './interfaces/usersAdapter';
+    IUserPhoneUpdated,
+    IUserAppCode,
+    IResetData
+} from './interfaces';
