@@ -6,7 +6,7 @@
     "test"
   ],
   "include": [
-    "../auth/src"
+    "../stream/src"
   ],
   "compilerOptions": {
     "baseUrl": "..",
