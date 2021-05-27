@@ -15,5 +15,4 @@ export {
     IUserPhoneUpdated,
     IUserAppCode,
     IResetData
-
 };
