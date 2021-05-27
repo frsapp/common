@@ -18,6 +18,7 @@ export default (logLevel?: string) => {
       return correlationIDHelper.getCorrelationId();
     };
   }
+  
   configure(loggerConfig);
   return loggerFactory;
 }
