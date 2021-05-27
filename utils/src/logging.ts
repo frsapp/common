@@ -1,7 +1,7 @@
 import loggerFactory, { configure } from 'log4js';
 import correlationIDHelper from './correlationIDHelper';
 
-export default (logLevel: string) => {
+export default (logLevel?: string) => {
 
   const loggerConfig: any = process.env.LOGGER_CONFIG ?
   JSON.parse(process.env.LOGGER_CONFIG) :
@@ -18,6 +18,7 @@ export default (logLevel: string) => {
       return correlationIDHelper.getCorrelationId();
     };
   }
+  
   configure(loggerConfig);
   return loggerFactory;
 }
