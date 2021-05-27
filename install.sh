@@ -5,6 +5,7 @@ for f in *; do
             echo "Working inside $f"
             # rm -rf node_modules
             npm install
+            npm run build
             cd ..
         fi
     fi
