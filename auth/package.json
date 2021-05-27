@@ -1,0 +1,31 @@
+{
+  "name": "@frsapp/auth",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Siv S",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frsapp/common"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/tsc --p tsconfig.json",
+    "test": "cd test; ../node_modules/.bin/tsc -p .; NODE_ENV=test ../node_modules/.bin/nyc ../node_modules/.bin/mocha '../dist-test/**/*.spec.js'",
+    "type-check": "tsc --noEmit",
+    "lint": "./node_modules/.bin/eslint src/*/*.ts --format codeframe",
+    "fix-lint": "./node_modules/.bin/eslint src/*/*.ts --fix"
+  },
+  "devDependencies": {
+    "@types/node": "^10.17.60",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/experimental-utils": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "nyc": "^15.0.1",
+    "source-map-support": "^0.5.19",
+    "typescript": "^3.1.6"
+  }
+}

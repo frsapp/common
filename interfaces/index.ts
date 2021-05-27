@@ -4,4 +4,4 @@ export {
     IUserPhoneUpdated,
     IUserAppCode,
     IResetData
-} from './users-adapter';
+} from './src/users-adapter';
