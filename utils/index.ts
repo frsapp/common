@@ -1,7 +1,7 @@
 
 import { transformFilters } from './src/transformFilters';
 import { zip } from './src/zip';
-import { generateId } from './src/generateId';
+import { generateId, generatePassword } from './src/generateId';
 import loggerFactory from './src/logging';
 import { hashString } from './src/hashString';
 import { cleanupUndefinedKeys } from './src/cleanupUndefinedKeys';
@@ -11,6 +11,7 @@ export {
     transformFilters,
     zip,
     generateId,
+    generatePassword,
     loggerFactory,
     hashString,
     cleanupUndefinedKeys,
