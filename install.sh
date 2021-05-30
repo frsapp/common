@@ -3,7 +3,9 @@ for f in *; do
         if [ "$f" != ".github" ]; then
             cd $f
             echo "Working inside $f"
-            # rm -rf node_modules
+            rm -rf node_modules
+            rm -rf dist
+            rm package-lock.json
             npm install
             npm run build
             cd ..

@@ -1,4 +1,5 @@
-import loggerFactory, { configure } from 'log4js';
+import  * as loggerFactory from 'log4js';
+import  { configure } from 'log4js';
 import correlationIDHelper from './correlationIDHelper';
 
 export default (logLevel?: string) => {
@@ -18,7 +19,7 @@ export default (logLevel?: string) => {
       return correlationIDHelper.getCorrelationId();
     };
   }
-  
+
   configure(loggerConfig);
   return loggerFactory;
 }
