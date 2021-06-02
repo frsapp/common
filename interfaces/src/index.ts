@@ -3,5 +3,6 @@ export {
     IUserEmailUpdated,
     IUserPhoneUpdated,
     IUserAppCode,
-    IResetData
+    IResetData,
+    IInsuranceRenewal
 } from './users-adapter';
