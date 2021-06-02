@@ -7,5 +7,6 @@ export enum StreamEvents {
     CUSTOMER_INSURANCE_RENEWAL_SMS = 'customerInsuranceRenewalSMS',
     CUSTOMER_INSURANCE_RENEWAL_WHATSAPP = 'customerInsuranceRenewalWhatsapp',
     DELIVER_SMS = 'sms',
-    DELIVER_EMAIL = 'email'
+    DELIVER_EMAIL = 'email',
+    DELIVER_WHATSAPP = 'whatsapp'
 }
