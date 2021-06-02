@@ -9,10 +9,14 @@ import {
     IResetData
 } from './IAppUser';
 
+import {
+    IInsuranceRenewal
+} from './IInsuraceRenewal';
 export {
     IUserCreated,
     IUserEmailUpdated,
     IUserPhoneUpdated,
     IUserAppCode,
-    IResetData
+    IResetData,
+    IInsuranceRenewal
 };
