@@ -1,10 +1,20 @@
-export interface IUserAppCode {
-    value: string;
-    date: number;
-    completed: boolean;
-}
+// export interface IUserAppCode {
+//     type: string;
+//     value: string;
+//     date: number;
+//     completed: boolean;
+// }
 
-export interface IResetData {
+
+export interface IVerificationCode<T> {
+    type: string;
     userId: string;
-    code: IUserAppCode,
+    value: string;
+    expiryDate: Date;
+    used: boolean;
+    meta: T;
+}
+export interface IResetData<T> {
+    userId: string;
+    code: IVerificationCode<T>,
 }

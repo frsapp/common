@@ -2,7 +2,6 @@ export {
     IUserCreated,
     IUserEmailUpdated,
     IUserPhoneUpdated,
-    IUserAppCode,
-    IResetData,
-    IInsuranceRenewal
+    // IUserAppCode,
+    IResetData
 } from './users-adapter';
