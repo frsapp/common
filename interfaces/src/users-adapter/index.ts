@@ -2,11 +2,12 @@ import {
     IUserCreated,
     IUserEmailUpdated,
     IUserPhoneUpdated
-    } from './IAccountUpdates';
+} from './IAccountUpdates';
 
 import {
-    IUserAppCode,
-    IResetData
+    IVerificationCode,
+    IResetData,
+    // IUserAppCode
 } from './IAppUser';
 
 import {
@@ -16,7 +17,8 @@ export {
     IUserCreated,
     IUserEmailUpdated,
     IUserPhoneUpdated,
-    IUserAppCode,
+    IVerificationCode,
     IResetData,
-    IInsuranceRenewal
+    IInsuranceRenewal,
+    // IUserAppCode
 };

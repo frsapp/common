@@ -1,11 +1,13 @@
-import { IUserAppCode } from './';
+import {
+    // IUserAppCode,
+    IVerificationCode
+} from './';
 
-export interface IInsuranceRenewal {
+export interface IInsuranceRenewal<T> {
     userId: string;
-    code: IUserAppCode;
+    code: IVerificationCode<T>;
     insuranceName: string;
     insuranceExpiry: string;
     insuranceLogo: string;
-    link: string;
     vehicle: string;
 }
