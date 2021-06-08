@@ -7,6 +7,7 @@ import { CorrelationIDHelper } from './correlationIDHelper'
 import { cleanupUndefinedKeys } from './cleanupUndefinedKeys';
 import { flattenArray } from './flattenArray';
 import { sleep } from './sleep';
+import { DateFormatter } from './dateFormatter';
 
 export {
     transformFilters,
@@ -18,5 +19,6 @@ export {
     cleanupUndefinedKeys,
     CorrelationIDHelper,
     flattenArray,
-    sleep
+    sleep,
+    DateFormatter
 };
