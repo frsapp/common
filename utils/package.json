@@ -1,6 +1,6 @@
 {
   "name": "@frsapp/utils",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Siv S",
@@ -20,6 +20,7 @@
     "fix-lint": "./node_modules/.bin/eslint src/*/*.ts --fix"
   },
   "devDependencies": {
+    "@types/luxon": "^1.26.5",
     "@types/node": "^10.17.60",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/experimental-utils": "^4.22.0",
@@ -31,6 +32,7 @@
   },
   "dependencies": {
     "continuation-local-storage": "^3.2.1",
+    "luxon": "^1.27.0",
     "nanoid": "^3.1.23"
   }
 }
