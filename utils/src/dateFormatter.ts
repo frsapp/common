@@ -16,5 +16,11 @@ export class DateFormatter {
     return DateTime.fromJSDate(date).toFormat(format);
   }
 
+  static isoToFarasString(date: string): string {
+    return DateTime.fromISO(date).toFormat(DateFormatter.farasDateFromat);
+  }
 
+  static isoToFormatString(date: string, format: string): string {
+    return DateTime.fromISO(date).toFormat(format);
+  }
 }
