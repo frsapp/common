@@ -7,7 +7,8 @@ export interface IInsuranceRenewal<T> {
     userId: string;
     code: IVerificationCode<T>;
     insuranceName: string;
-    insuranceExpiryDate: Date;
-    insuranceLogo: string;
+    insuranceExpiryDate: string;
     vehicle: string;
+    tenant: string;
+    broker: string;
 }
