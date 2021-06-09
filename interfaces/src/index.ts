@@ -2,8 +2,9 @@ export {
     IUserCreated,
     IUserEmailUpdated,
     IUserPhoneUpdated,
-    // IUserAppCode,
     IResetData,
     IInsuranceRenewal,
-    IVerificationCode
+    IVerificationCode,
+    IStatItems,
+    IStatistics
 } from './users-adapter';

@@ -1,11 +1,3 @@
-// export interface IUserAppCode {
-//     type: string;
-//     value: string;
-//     date: number;
-//     completed: boolean;
-// }
-
-
 export interface IVerificationCode<T> {
     type: string;
     userId: string;

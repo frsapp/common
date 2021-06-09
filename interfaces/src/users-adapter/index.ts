@@ -7,12 +7,17 @@ import {
 import {
     IVerificationCode,
     IResetData,
-    // IUserAppCode
 } from './IAppUser';
 
 import {
     IInsuranceRenewal
 } from './IInsuraceRenewal';
+
+import {
+    IStatistics,
+    IStatItems
+} from './IStatistics';
+
 export {
     IUserCreated,
     IUserEmailUpdated,
@@ -20,5 +25,6 @@ export {
     IVerificationCode,
     IResetData,
     IInsuranceRenewal,
-    // IUserAppCode
+    IStatItems,
+    IStatistics
 };
