@@ -1,12 +1,8 @@
-export interface IVerificationCode<T> {
-    type: string;
-    userId: string;
+export interface IVerificationCode {
     value: string;
-    expiryDate: Date;
-    used: boolean;
-    meta: T;
+    createdAt: Date;
 }
-export interface IResetData<T> {
+export interface IResetData {
     userId: string;
-    code: IVerificationCode<T>,
+    code: IVerificationCode
 }

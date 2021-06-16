@@ -1,14 +1,19 @@
 export interface IStatistics {
   type?: string;
-  items: IStatItems,
+  items: IStatItems;
   total: {
-    [field: string]: number
+    vehicles: number;
+    registeredUsers: number;
+    onboardedUsers: number;
+    profileCreatedUsers: number;
   }
 }
 
 export interface IStatItems {
   [field: string]: {
-    _id: string,
+    _id: string;
+    name?: string;
+    logo?: string;
     count: number
   }[]
 }

@@ -1,5 +1,5 @@
-export const flattenArray = <T>(arr: T[]) => {
-  const result: T[] = [];
+export const flattenArray = (arr: any[]) => {
+  const result: any[] = [];
 
   const flatten = (_arr: any[]) => {
     for (const item of _arr) {

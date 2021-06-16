@@ -1,11 +1,9 @@
 import {
-    // IUserAppCode,
     IVerificationCode
 } from './';
 
-export interface IInsuranceRenewal<T> {
-    userId: string;
-    code: IVerificationCode<T>;
+export interface IInsuranceRenewal {
+    code: IVerificationCode;
     insuranceName: string;
     insuranceExpiryDate: string;
     vehicle: string;
