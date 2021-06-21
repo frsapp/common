@@ -1,7 +1,6 @@
 export {
     IUserCreated,
-    IUserEmailUpdated,
-    IUserPhoneUpdated,
+    IUserUpdated,
     IResetData,
     IInsuranceRenewal,
     IVerificationCode,
