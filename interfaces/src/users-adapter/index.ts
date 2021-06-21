@@ -1,7 +1,6 @@
 import {
     IUserCreated,
-    IUserEmailUpdated,
-    IUserPhoneUpdated
+    IUserUpdated
 } from './IAccountUpdates';
 
 import {
@@ -20,8 +19,7 @@ import {
 
 export {
     IUserCreated,
-    IUserEmailUpdated,
-    IUserPhoneUpdated,
+    IUserUpdated,
     IVerificationCode,
     IResetData,
     IInsuranceRenewal,

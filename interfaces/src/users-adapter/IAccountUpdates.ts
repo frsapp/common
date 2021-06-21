@@ -4,13 +4,8 @@ export interface IUserCreated {
     email: string;
 }
 
-export interface IUserPhoneUpdated {
+export interface IUserUpdated {
     userId: string;
-    phoneNumber: string;
+    data: string;
+    type: 'email' | 'phone';
 }
-
-export interface IUserEmailUpdated {
-    userId: string;
-    email: string;
-}
-
