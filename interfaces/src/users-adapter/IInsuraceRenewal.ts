@@ -3,6 +3,7 @@ import {
 } from './';
 
 export interface IInsuranceRenewal {
+    userId: string;
     code: IVerificationCode;
     insuranceName: string;
     insuranceExpiryDate: string;

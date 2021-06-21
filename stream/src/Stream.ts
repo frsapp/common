@@ -1,5 +1,6 @@
 export enum Stream {
-    NotificationCenter = 'notification_center_stream',
+    Customer = 'customer_stream',
     Delivery = 'delivery_stream',
-    UsersAdapter = 'users_adapter_stream'
+    Renewal = 'renewal_stream',
+    Onboarding = 'onboarding_stream'
 }
