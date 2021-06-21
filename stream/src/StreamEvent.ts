@@ -1,14 +1,10 @@
 export enum StreamEvent {
-
     // customer stream
     CUSTOMER_CREATED = 'customerCreated',
-    CUSTOMER_PHONE_UPDATED = 'customerPhoneUpdated',
-    CUSTOMER_EMAIL_UPDATED = 'customerEmailUpdated',
+    CUSTOMER_UPDATED = 'customerUpdated',
 
     // renewal stream
-    CUSTOMER_INSURANCE_RENEWAL_EMAIL = 'customerInsuranceRenewalEmail',
-    CUSTOMER_INSURANCE_RENEWAL_SMS = 'customerInsuranceRenewalSMS',
-    CUSTOMER_INSURANCE_RENEWAL_WHATSAPP = 'customerInsuranceRenewalWhatsapp',
+    RENEWAL_STARTED = 'initiateCustomerRenewal',
 
     //delivery stream
     DELIVER_SMS = 'sms',
@@ -16,5 +12,5 @@ export enum StreamEvent {
     DELIVER_WHATSAPP = 'whatsapp',
 
     // onboarding stream
-    ONBOARDING_STARTED = 'onboardingStarted'
+    ONBOARDING_STARTED = 'intiateCustomerOnboarding'
 }

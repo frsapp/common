@@ -10,4 +10,7 @@ export interface IInsuranceRenewal {
     vehicle: string;
     tenant: string;
     broker: string;
+    email: boolean;
+    whatsapp: boolean;
+    sms: boolean;
 }
