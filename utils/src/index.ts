@@ -8,6 +8,7 @@ import { cleanupUndefinedKeys } from './cleanupUndefinedKeys';
 import { flattenArray } from './flattenArray';
 import { sleep } from './sleep';
 import { DateFormatter } from './dateFormatter';
+import { ExpiryDate } from './getExpiryDate';
 
 export {
     transformFilters,
@@ -20,5 +21,6 @@ export {
     CorrelationIDHelper,
     flattenArray,
     sleep,
-    DateFormatter
+    DateFormatter,
+    ExpiryDate
 };

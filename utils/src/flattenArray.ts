@@ -1,10 +1,13 @@
 export const flattenArray = (arr: any[]) => {
+
+  if (!arr.length) return [];
+
   const result: any[] = [];
 
   const flatten = (_arr: any[]) => {
-    for (const item of _arr) {
-      if (Array.isArray(item)) flatten(item);
-      else result.push(item);
+    for (const x of _arr) {
+      if (Array.isArray(x)) flatten(x);
+      else result.push(x);
     }
   }
 
