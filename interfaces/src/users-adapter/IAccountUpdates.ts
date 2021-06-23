@@ -7,5 +7,5 @@ export interface IUserCreated {
 export interface IUserUpdated {
     userId: string;
     data: string;
-    type: 'email' | 'phone';
+    type: 'email' | 'phoneNumber';
 }
