@@ -1,7 +1,12 @@
 export interface IUserCreated {
     userId: string;
-    phoneNumber: string;
-    email: string;
+    name: string;
+    phoneNumber?: string;
+    email?: string;
+    broker: string;
+    tenant: string;
+    role: string[];
+    sendNotification?: boolean;
 }
 
 export interface IUserUpdated {
