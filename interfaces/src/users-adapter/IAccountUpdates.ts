@@ -1,4 +1,6 @@
 export interface IUserCreated {
+    username: string;
+    password: string;
     userId: string;
     name: string;
     phoneNumber?: string;
