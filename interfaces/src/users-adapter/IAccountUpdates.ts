@@ -7,7 +7,7 @@ export interface IUserCreated {
     email?: string;
     broker: string;
     tenant: string;
-    role: string[];
+    roles: string[];
     sendNotification?: boolean;
 }
 
