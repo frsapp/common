@@ -33,6 +33,6 @@
   "dependencies": {
     "continuation-local-storage": "^3.2.1",
     "luxon": "^1.27.0",
-    "nanoid": "^3.1.23"
+    "nanoid": "^3.1.31"
   }
 }
